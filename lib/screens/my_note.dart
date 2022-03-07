@@ -31,9 +31,9 @@ class MyNote extends StatelessWidget {
               padding: const EdgeInsets.all(15),
               // ignore: sized_box_for_whitespace
               child: Container(
-                height: 500,
+                height: MediaQuery.of(context).size.height * 0.6,
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     Expanded(
